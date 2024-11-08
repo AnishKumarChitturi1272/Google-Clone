@@ -1,0 +1,51 @@
+    .main{
+        display : block;
+        text-align: center;
+        /*text-align: center; means all the inline elements to align at the center, it aligns the buttons in the center*/
+        margin-top : 100px;
+        margin-left : auto;
+        margin-right : auto;
+    }
+    .Google-img{
+        display: block;
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SearchBar-input{
+        display : block; 
+        width : 400px;
+        line-height: 24px;/*line-height or height*/
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;    
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*.btn_wrapper{
+        display: flex;
+        justify-content: center;
+    }*/
+    .btn{
+        /*display: block stacks on top
+        margin-left: auto;
+        margin-right: auto;*/
+        /*margin-left: 4px;
+        margin-right: 4px;*/
+        margin-top: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        background:#dfe1e5;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+        /*We are centering our content in this project*/
+        /*I think everything in css file should be in similar order to that of html file*/
+        /*display : inline (images stack  horizontally) display : block (images stacks  vertically)*/
